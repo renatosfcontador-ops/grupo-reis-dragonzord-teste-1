@@ -158,6 +158,15 @@ Publique em Render, Railway, Fly.io ou VM. Configure `PORT` por variável de amb
 
 ---
 
-## 10. Licença
+## 10. Acesso
+
+O painel abre com um overlay de login. A sessão é guardada em `localStorage` na chave `dragonzord_auth`;
+para encerrar, use **Configurações → Sair / Encerrar sessão**.
+
+> **Aviso de segurança:** por ser um site estático no GitHub Pages, a validação é client-side e pode ser
+> inspecionada ou contornada por quem tem o link. Para proteção real, use Cloudflare Access, GitHub OAuth
+> ou um back-end autenticado.
+
+## 11. Licença
 
 MIT.
