@@ -46,7 +46,19 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["openclaw", "desktop", "browser"]
+      "tags": [
+        "openclaw",
+        "desktop",
+        "browser"
+      ],
+      "frontend": {
+        "hasUI": true,
+        "kind": "desktop",
+        "label": "Aplicativo desktop",
+        "localUrl": null,
+        "runCommand": "npx openclaw",
+        "note": "Aplicativo desktop; não abre em navegador."
+      }
     },
     {
       "id": 2,
@@ -60,7 +72,19 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["hermes", "nous", "memória"]
+      "tags": [
+        "hermes",
+        "nous",
+        "memória"
+      ],
+      "frontend": {
+        "hasUI": true,
+        "kind": "web",
+        "label": "Interface web",
+        "localUrl": "http://localhost:3000",
+        "runCommand": "npm install && npm run dev",
+        "note": "Interface disponível após executar o projeto localmente."
+      }
     },
     {
       "id": 3,
@@ -74,7 +98,19 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["python", "browser", "automation"]
+      "tags": [
+        "python",
+        "browser",
+        "automation"
+      ],
+      "frontend": {
+        "hasUI": false,
+        "kind": "library",
+        "label": "Biblioteca / API",
+        "localUrl": null,
+        "runCommand": "pip install browser-use",
+        "note": "Este repositório não possui front-end nativo."
+      }
     },
     {
       "id": 4,
@@ -88,7 +124,19 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["typescript", "browserbase", "automation"]
+      "tags": [
+        "typescript",
+        "browserbase",
+        "automation"
+      ],
+      "frontend": {
+        "hasUI": false,
+        "kind": "library",
+        "label": "Biblioteca / API",
+        "localUrl": null,
+        "runCommand": "npm install @browserbasehq/stagehand",
+        "note": "Este repositório não possui front-end nativo."
+      }
     },
     {
       "id": 5,
@@ -102,7 +150,19 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["python", "vision", "automation"]
+      "tags": [
+        "python",
+        "vision",
+        "automation"
+      ],
+      "frontend": {
+        "hasUI": true,
+        "kind": "web",
+        "label": "Interface web",
+        "localUrl": "http://localhost:8000",
+        "runCommand": "docker compose up",
+        "note": "Interface disponível após executar o projeto localmente."
+      }
     },
     {
       "id": 6,
@@ -116,7 +176,19 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["chrome", "extension", "browser"]
+      "tags": [
+        "chrome",
+        "extension",
+        "browser"
+      ],
+      "frontend": {
+        "hasUI": true,
+        "kind": "extension",
+        "label": "Extensão de navegador",
+        "localUrl": null,
+        "runCommand": "npm install && npm run build",
+        "note": "Extensão de navegador; instale no Chrome/Edge."
+      }
     },
     {
       "id": 7,
@@ -130,7 +202,19 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["computer-use", "desktop", "agent"]
+      "tags": [
+        "computer-use",
+        "desktop",
+        "agent"
+      ],
+      "frontend": {
+        "hasUI": false,
+        "kind": "cli",
+        "label": "Linha de comando",
+        "localUrl": null,
+        "runCommand": "pip install agents",
+        "note": "Este repositório não possui front-end nativo."
+      }
     },
     {
       "id": 8,
@@ -144,7 +228,19 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["python", "multi-agent", "orchestration"]
+      "tags": [
+        "python",
+        "multi-agent",
+        "orchestration"
+      ],
+      "frontend": {
+        "hasUI": false,
+        "kind": "library",
+        "label": "Biblioteca / API",
+        "localUrl": null,
+        "runCommand": "pip install crewai",
+        "note": "Este repositório não possui front-end nativo."
+      }
     },
     {
       "id": 9,
@@ -158,7 +254,19 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["microsoft", "multi-agent", "python"]
+      "tags": [
+        "microsoft",
+        "multi-agent",
+        "python"
+      ],
+      "frontend": {
+        "hasUI": true,
+        "kind": "web",
+        "label": "Interface web",
+        "localUrl": "http://localhost:8000",
+        "runCommand": "pip install autogen-studio && autogenstudio ui --port 8000",
+        "note": "Interface disponível após executar o projeto localmente."
+      }
     },
     {
       "id": 10,
@@ -172,7 +280,19 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["python", "graph", "state"]
+      "tags": [
+        "python",
+        "graph",
+        "state"
+      ],
+      "frontend": {
+        "hasUI": true,
+        "kind": "web",
+        "label": "Interface web",
+        "localUrl": "http://localhost:3000",
+        "runCommand": "npx langgraph dev",
+        "note": "Interface disponível após executar o projeto localmente."
+      }
     },
     {
       "id": 11,
@@ -186,7 +306,19 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["multi-agent", "software", "roles"]
+      "tags": [
+        "multi-agent",
+        "software",
+        "roles"
+      ],
+      "frontend": {
+        "hasUI": true,
+        "kind": "web",
+        "label": "Interface web",
+        "localUrl": "http://localhost:3000",
+        "runCommand": "pip install metagpt",
+        "note": "Interface disponível após executar o projeto localmente."
+      }
     },
     {
       "id": 12,
@@ -200,7 +332,19 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["openai", "sdk", "multi-agent"]
+      "tags": [
+        "openai",
+        "sdk",
+        "multi-agent"
+      ],
+      "frontend": {
+        "hasUI": false,
+        "kind": "library",
+        "label": "Biblioteca / API",
+        "localUrl": null,
+        "runCommand": "pip install openai-agents",
+        "note": "Este repositório não possui front-end nativo."
+      }
     },
     {
       "id": 13,
@@ -214,7 +358,19 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["autonomous", "visual", "agents"]
+      "tags": [
+        "autonomous",
+        "visual",
+        "agents"
+      ],
+      "frontend": {
+        "hasUI": true,
+        "kind": "web",
+        "label": "Interface web",
+        "localUrl": "http://localhost:8000",
+        "runCommand": "docker compose up",
+        "note": "Interface disponível após executar o projeto localmente."
+      }
     },
     {
       "id": 14,
@@ -228,7 +384,19 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["coding", "autonomous", "sandbox"]
+      "tags": [
+        "coding",
+        "autonomous",
+        "sandbox"
+      ],
+      "frontend": {
+        "hasUI": true,
+        "kind": "web",
+        "label": "Interface web",
+        "localUrl": "http://localhost:3000",
+        "runCommand": "docker run -p 3000:3000 ghcr.io/all-hands-ai/openhands",
+        "note": "Interface disponível após executar o projeto localmente."
+      }
     },
     {
       "id": 15,
@@ -242,7 +410,19 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["autonomous", "dev-first", "agents"]
+      "tags": [
+        "autonomous",
+        "dev-first",
+        "agents"
+      ],
+      "frontend": {
+        "hasUI": true,
+        "kind": "web",
+        "label": "Interface web",
+        "localUrl": "http://localhost:3000",
+        "runCommand": "docker compose up",
+        "note": "Interface disponível após executar o projeto localmente."
+      }
     },
     {
       "id": 16,
@@ -256,7 +436,19 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["memory", "context", "api"]
+      "tags": [
+        "memory",
+        "context",
+        "api"
+      ],
+      "frontend": {
+        "hasUI": false,
+        "kind": "library",
+        "label": "Biblioteca / API",
+        "localUrl": null,
+        "runCommand": "pip install mem0ai",
+        "note": "Este repositório não possui front-end nativo."
+      }
     },
     {
       "id": 17,
@@ -270,7 +462,19 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["memory", "stateful", "self-improvement"]
+      "tags": [
+        "memory",
+        "stateful",
+        "self-improvement"
+      ],
+      "frontend": {
+        "hasUI": true,
+        "kind": "web",
+        "label": "Interface web",
+        "localUrl": "http://localhost:8283",
+        "runCommand": "pip install letta && letta server",
+        "note": "Interface disponível após executar o projeto localmente."
+      }
     },
     {
       "id": 18,
@@ -284,7 +488,19 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["memory", "conversation", "context"]
+      "tags": [
+        "memory",
+        "conversation",
+        "context"
+      ],
+      "frontend": {
+        "hasUI": true,
+        "kind": "web",
+        "label": "Interface web",
+        "localUrl": "http://localhost:8000",
+        "runCommand": "docker compose up",
+        "note": "Interface disponível após executar o projeto localmente."
+      }
     },
     {
       "id": 19,
@@ -298,7 +514,19 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["knowledge-graph", "memory", "temporal"]
+      "tags": [
+        "knowledge-graph",
+        "memory",
+        "temporal"
+      ],
+      "frontend": {
+        "hasUI": false,
+        "kind": "library",
+        "label": "Biblioteca / API",
+        "localUrl": null,
+        "runCommand": "pip install graphiti-core",
+        "note": "Este repositório não possui front-end nativo."
+      }
     },
     {
       "id": 20,
@@ -312,7 +540,19 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["memory", "pipeline", "rag"]
+      "tags": [
+        "memory",
+        "pipeline",
+        "rag"
+      ],
+      "frontend": {
+        "hasUI": true,
+        "kind": "web",
+        "label": "Interface web",
+        "localUrl": "http://localhost:3000",
+        "runCommand": "docker compose up",
+        "note": "Interface disponível após executar o projeto localmente."
+      }
     },
     {
       "id": 21,
@@ -326,7 +566,19 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["low-code", "visual", "agents"]
+      "tags": [
+        "low-code",
+        "visual",
+        "agents"
+      ],
+      "frontend": {
+        "hasUI": true,
+        "kind": "web",
+        "label": "Interface web",
+        "localUrl": "http://localhost:7860",
+        "runCommand": "pip install langflow && langflow run",
+        "note": "Interface disponível após executar o projeto localmente."
+      }
     },
     {
       "id": 22,
@@ -340,7 +592,19 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["low-code", "visual", "llm"]
+      "tags": [
+        "low-code",
+        "visual",
+        "llm"
+      ],
+      "frontend": {
+        "hasUI": true,
+        "kind": "web",
+        "label": "Interface web",
+        "localUrl": "http://localhost:3000",
+        "runCommand": "npx flowise start",
+        "note": "Interface disponível após executar o projeto localmente."
+      }
     },
     {
       "id": 23,
@@ -354,7 +618,19 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["low-code", "rag", "production"]
+      "tags": [
+        "low-code",
+        "rag",
+        "production"
+      ],
+      "frontend": {
+        "hasUI": true,
+        "kind": "web",
+        "label": "Interface web",
+        "localUrl": "http://localhost",
+        "runCommand": "docker compose up",
+        "note": "Interface disponível após executar o projeto localmente."
+      }
     },
     {
       "id": 24,
@@ -368,7 +644,19 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["automation", "workflows", "low-code"]
+      "tags": [
+        "automation",
+        "workflows",
+        "low-code"
+      ],
+      "frontend": {
+        "hasUI": true,
+        "kind": "web",
+        "label": "Interface web",
+        "localUrl": "http://localhost:5678",
+        "runCommand": "npx n8n",
+        "note": "Interface disponível após executar o projeto localmente."
+      }
     }
   ]
 }
